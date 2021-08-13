@@ -1,24 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+     <h1>Erstelle deine Schnitzeljagd für den Kindergeburtstag online</h1>
+      <p> Mit wenigen Bildern, Klicks und Texten kannst du deine Schnitzeljagd erstellen und die Materialien ausdrucken</p>
+    </main>
   );
 }
 
